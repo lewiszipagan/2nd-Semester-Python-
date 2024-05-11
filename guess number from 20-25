@@ -1,0 +1,6 @@
+num = 21 
+gnum = eval(input("Type your guess number from 20-25: "))
+if num != gnum: 
+   print("sorry")
+else:
+    print("you got it")
