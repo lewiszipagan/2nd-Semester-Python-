@@ -1,0 +1,11 @@
+num=int(input("enter amount :"))
+if num<1000:
+    num*.5
+    sum=( num*.05)
+    print("you will have 5%",sum)
+    
+else:  
+    sum=( num*.10)
+    print("you will have 10%", round(sum,2))    
+
+print("net payable",num-sum)
