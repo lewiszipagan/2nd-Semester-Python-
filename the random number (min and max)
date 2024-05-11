@@ -1,0 +1,5 @@
+from random import randint
+minimum=eval(input("enter a minimum number"))
+maximum=eval(input("enter a maximum number"))
+y=randint(minimum,maximum)
+print("the random number",y,".",sep="---")
