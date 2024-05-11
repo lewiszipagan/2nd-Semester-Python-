@@ -1,0 +1,161 @@
+print("Good day!, you have 10 item quiz in multiplication")
+score=0
+wrong=0
+print("Question no. 1")
+from random import randint
+num1=randint(1,100) 
+num2=randint(1,100)
+print(num1,"x", num2,"=")
+
+a=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num1*num2)
+
+if a==num1*num2:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1
+    
+print("Question no. 2")    
+num3=randint(1,100) 
+num4=randint(1,100)
+print(num3,"x", num4,"=")
+b=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num3*num4)
+
+if b==num3*num4:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1    
+    
+print("Question no. 3")    
+num5=randint(1,100) 
+num6=randint(1,100)
+print(num5,"x", num6,"=")
+c=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num5*num6)
+
+if c==num5*num6:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1       
+    
+print("Question no. 4")   
+num7=randint(1,100) 
+num8=randint(1,100)
+print(num7,"x", num8,"=")
+d=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num7*num8)
+
+if d==num7*num8:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1       
+    
+print("Question no. 5")    
+num9=randint(1,100) 
+num10=randint(1,100)
+print(num9,"x", num10,"=")
+d=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num9*num10)
+
+if d==num9*num10:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1    
+    
+print("Question no. 6")    
+num11=randint(1,100) 
+num12=randint(1,100)
+print(num11,"x", num12,"=")
+f=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num11*num12)
+
+if f==num11*num12:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1       
+    
+print("Question no. 7")   
+num13=randint(1,100) 
+num14=randint(1,100)
+print(num13,"x", num14,"=")
+g=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num13*num14)
+
+if g==num13*num14:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1        
+
+print("Question no. 8")    
+num15=randint(1,100) 
+num16=randint(1,100)
+print(num15,"x", num16,"=")
+h=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num15*num16)
+
+if h==num15*num16:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1        
+    
+print("Question no. 9")    
+num17=randint(1,100) 
+num18=randint(1,100)
+print(num17,"x", num18,"=")
+j=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num17*num18)
+
+if j==num17*num18:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1        
+       
+print("Question no. 10")    
+num19=randint(1,100) 
+num20=randint(1,100)
+print(num19,"x", num20,"=")
+k=eval(input("what is your answer ? "))
+for i in range(1):
+    print("the answer is ", num19*num20)
+
+if k==num19*num20:
+    print("your corrrect")
+    score=score+1
+else:
+    print("your wrong")    
+    wrong=wrong+1                 
+    
+    
+print("there are ",10-wrong,"correct answer")   
+print("there are ",10-score,"wrong answer")
+print("your'e is sccore is ",score,"over 10" )
+    
+    
