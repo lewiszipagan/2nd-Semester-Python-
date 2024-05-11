@@ -1,0 +1,7 @@
+num=int(input ("enter a length in cm :"))
+if num > 0:
+    inch = num / 2.54
+    print(num, "centimetres is equal to", inch, "inches")
+    print("Invalid input")
+else:
+    print("Invalid input")
