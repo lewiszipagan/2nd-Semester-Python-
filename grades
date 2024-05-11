@@ -1,0 +1,27 @@
+num1 = eval(input("Enter a grade: "))
+num2 = eval(input("Enter a grade: "))
+num3 = eval(input("Enter a grade: "))
+num4 = eval(input("Enter a grade: "))
+num5 = eval(input("Enter a grade: "))
+sum=(num1+num2+num3+num4+num5)/5
+if sum <74:
+    print("failed")
+    print("your grades is",sum)
+elif sum >=75 and   num1 <=79:
+    print("passed") 
+    print("your grades is",sum)  
+elif sum >=80 and   num1 <=85:
+    print("fair")
+    print("your grades is",sum) 
+elif sum >=86 and   num1 <=90:
+    print("good")
+    print("your grades is",sum)
+elif sum >=91 and   num1 <=95:
+    print("very good")
+    print("your grades is",sum)
+elif sum >=96 and   num1 <=100:
+    print("excellent")    
+ 
+else:  
+    print("invalid grades")    
+    
