@@ -1,0 +1,5 @@
+name=(input("type your name :"))
+num1=(eval(input)("how may times you want to print your name"))
+for iv in  range(num1):
+    print(" my name",name)
+
