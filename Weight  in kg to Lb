@@ -1,0 +1,3 @@
+num=eval(input("enter your weight in kilogram"))
+num1=num*2.2
+print ("your weight input",num," is converted to pounds is",round(num1,2))
