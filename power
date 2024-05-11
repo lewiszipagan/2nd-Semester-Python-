@@ -1,0 +1,5 @@
+from random import randint
+c=randint(1,50)
+y=randint(5,10)
+answer=c**y
+print (c,"to the",y,"power is ",answer, ".",sep="")
