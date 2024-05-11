@@ -1,0 +1,8 @@
+num1 =eval(input("how many numbers do you want add :"))
+i=1
+ans=0
+for i in range(num1):
+    num =eval(input("type a number :"))
+    ans=ans+num
+    
+print("the answer is",ans)    
