@@ -1,0 +1,21 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+lowest=0
+highest=0
+ 
+if num1>num2 and num1>num3:
+    print ("highest number:",num1)
+elif num1>num2 and num1>num3:
+    print ("highest number:",num2)  
+else:
+    print ("highest number:",num3)
+
+
+
+if num1<num2 and num1<num3:
+    print ("lowest number:",num1)
+elif num2<num1 and num2<num3:
+    print ("lowest number:",num2)
+else:
+    print ("lowest number:",num3)    
