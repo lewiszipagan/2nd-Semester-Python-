@@ -1,0 +1,6 @@
+from random import randint
+guess=randint(1,10)
+num=eval(input("type your guess number from 1 to 10:"))
+if guess==num:
+    print("congratulations! you got it")
+print("end of the program")
