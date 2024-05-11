@@ -1,0 +1,9 @@
+temperature=int(input("type your temperature : "))     
+                  
+if temperature >70:
+    print("wear shorts.")
+    
+else:  
+    print("wear long pants get exercise outside.")   
+     
+    
