@@ -1,0 +1,11 @@
+num = int(input("Enter first number: "))
+if num%2==0:
+    if num%3==0:
+        print("divisbled by 2 and 3")
+    else:
+        print("divisbled by 2 not divisbled by  3")
+else:
+    if num%3==0:
+        print("divisible by 3 not divisible 2")
+    else:
+        print("not disible by 2 and not divisible by 3")
