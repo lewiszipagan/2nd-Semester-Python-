@@ -1,0 +1,7 @@
+Q1= input("what is capital of japan")
+
+if Q1=="TOKYO" or Q1=="tokyo" or Q1=="Tokyo":
+    print("correct")
+     
+else:
+    print("wrong")     
