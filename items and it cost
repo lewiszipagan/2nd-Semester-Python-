@@ -1,0 +1,15 @@
+print("good day !")
+charges=eval(input("how many items you buy:"))
+
+if charges<9:
+    sum=charges*12
+    print("your total cost is",sum)
+elif charges>10 or charges <99:
+    sum=charges*10
+    print("your total cost is",sum)
+else:  
+    sum=charges*7
+    print("your total cost is",sum)
+
+
+ 
