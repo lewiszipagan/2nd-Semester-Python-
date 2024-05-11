@@ -1,0 +1,10 @@
+from random import  randint
+
+num=randint(1,5)
+print("this is quesing game")
+gnum=int(input("type yourguesing gamw number 1,5  :"))
+if num==gnum:
+    print("congrats")
+
+else:
+    print("your wrong")    
