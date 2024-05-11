@@ -1,0 +1,8 @@
+username=input("type your username :")
+password=input("type your password :")
+
+if username=="walther" and password=="sipagan":
+     print("login successfully")
+else: 
+     print("invalid username and passwoord !!!")
+     print("please try again !!!")
