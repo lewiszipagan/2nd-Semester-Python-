@@ -1,0 +1,11 @@
+num1 = int(input("Enter the amount purchase: "))
+
+if num1>0 and num1 <=1000:
+    discount=num1 *.05 
+elif num1 >1000 and num1 <=4999:
+    discount=num1 *.10
+else:
+    discount=num1*.15
+
+print("the discounted amout",discount)
+print("you only need to pay ",num1-discount)
