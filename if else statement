@@ -1,0 +1,23 @@
+print("Help! My computer doesn't work!")
+ch=input("Does the computer make any sounds (fans, etc.)? Type [Y/N]: ")
+
+if ch=="N" or ch=="n":
+    ans=input("Is it plugged in? (y/n): ")
+    if ans=="N" or ans=="n":
+        print("Plug it in. If the problem persists, \n please run this program again.")
+    else:
+        ch1=input("Is the switch in the \"on\" position? (y/n): ")
+        if ch1=="n" or ch1=="N":
+            print("Turn it on. If the problem persists, \n please run this program again.")
+        else:
+            ch2=input("Does the computer have a fuse? (y/n): ")
+            if ch2=="N" or ch2=="n":
+                ch3=input("Is the outlet OK? (y/n): ")
+                if ch3=="N" or ch3=="n":
+                    print("Check the outlet's circuit breaker or fuse. Move to a new outlet, if necessary. If the problem persists, please run this program again.")
+                else:
+                    print("Please consult a service technician.")
+            else:
+                print("Check the fuse. Replace if necessary. If the problem persists, then please run this program again.")
+else:
+    print("Please consult a service technician.")
