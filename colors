@@ -1,0 +1,18 @@
+
+print("red , green , blue , orange , yellow , purple ")
+color=(input("choose your favorite color :"))
+if color!="red" and color!="RED"and color!="blue"and color!="BLUE"and color!="yellow"and color!="YELLOW":
+    print("the",color," is a secondary color")
+     
+else:
+    print("the ",color,"is a  primary color")   
+ 
+choice=(input("do you want to try again ? {Y/N}"))
+while choice=="Y" or choice=="y":       
+    color=(input("choose your favorite color :"))
+    if color!="red" and color!="RED"and color!="blue"and color!="BLUE"and color!="yellow"and color!="YELLOW":
+        print("the",color," is a secondary color")
+         
+    else:
+        print("the ",color,"is a  primary color")   
+     
