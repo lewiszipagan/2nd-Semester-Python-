@@ -1,0 +1,13 @@
+#Average of 5 grades
+
+Fil=eval(input("Enter your grade in Filipino: "))
+Math=eval(input("Enter your grade in Math: "))
+Eng=eval(input("Enter your grade in Eng: "))
+Sci=eval(input("Enter your grade in Science: "))
+
+
+average=(Fil+Math+Eng+Sci)/4
+
+print("The average of your grades is ", (Fil+Math+Eng+Sci)/4)
+
+
