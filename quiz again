@@ -1,0 +1,23 @@
+print("Good day!, you have 10 item quiz in multiplication")
+score=0
+wrong=0
+for i in range(10):
+    from random import randint
+    num1=randint(1,100) 
+    num2=randint(1,100)
+    print(num1,"x", num2,"=")
+ 
+    a=eval(input("what is your answer ? "))
+    print("the answer is ", num1*num2)
+
+    if a==num1*num2:
+        print("your corrrect")
+        score=score+1
+    else:
+        print("your wrong")    
+        wrong=wrong+1
+
+print("there are ",10-wrong,"correct answer")   
+print("there are ",10-score,"wrong answer")
+print("your'e is sccore is ",score,"over 10" )
+    
