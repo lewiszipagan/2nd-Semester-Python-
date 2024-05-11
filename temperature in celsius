@@ -1,0 +1,29 @@
+
+#1. Ask the user to enter a temperature in Celsius. The program should print a message based on the temperature: 
+#If the temperature is less than -273.15, print that the temperature is invalid because it is below absolute zero. 
+#If it is exactly -273.15, print that the temperature is absolute 0. 
+#If the temperature is between -273.15 and 0, print that the temperature is below freezing. 
+#If it is 0, print that the temperature is at the freezing point. 
+#If it is between 0 and 100, print that the temperature is in the normal range. 
+#If it is 100, print that the temperature is at the boiling point. 
+#If it is above 100, print that the temperature is above the boiling point.
+
+print("Good Day Client")
+temp = eval(input("enter a temperature in Celsius: "))
+if temp <=-273.16:
+    print("your temperature is invalid because it is below absolute zero")  
+elif temp ==-273.15 :
+    print("your temperature is absolute 0")      
+elif temp >=-273.14 and temp <=-1:
+    print("your temperature is below freezing")
+elif temp ==0:
+    print("your temperature is at the freezing point")
+elif temp >=1 and temp <=99:
+    print("your temperature is in the normal range")
+elif temp ==100:
+    print("your temperature is at the boiling point")
+else:
+    print("your temperature is above the boiling point")
+            
+    
+    
