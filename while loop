@@ -1,0 +1,22 @@
+print("\nThis is a guessing game.")
+from random import randint
+num=randint(1,5)
+gnum=0
+
+while num!=gnum:
+    gnum=eval(input("Type your guess number from 1 to 5: "))
+
+print("FINALLY! You got it!!")
+
+choice=input("Do you want to run the program again? [Y/N]: ")
+while choice=="Y" or choice=="y":
+    print("\nThis is a guessing game.")
+    from random import randint
+    num=randint(1,5)
+    gnum=0
+   
+    while num!=gnum:
+        gnum=eval(input("Type your guess number from 1 to 5: "))
+
+    print("FINALLY! You got it!!")
+    choice=input("Do you want to run the program again? [Y/N]: ")
