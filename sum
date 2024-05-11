@@ -1,0 +1,6 @@
+Q1= input("type a number")
+Q2= input("type a number")
+
+
+sum=(Q1+Q2)
+print("the total sum is ",sum)
