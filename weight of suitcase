@@ -1,0 +1,9 @@
+num=int(input("enter the weight of suitcase :"))
+if num>50:num=int(input("enter the weight of suitcase :"))
+if num>50:
+    print("you will be charge of 25 dollars for your heavy luggage")
+    
+print("thank you for your business")    
+    print("you will be charge of 25 dollars for your heavy luggage")
+    
+print("thank you for your business")    
