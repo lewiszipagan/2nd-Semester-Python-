@@ -1,0 +1,6 @@
+for i in range(3):
+    num=eval(input("type a number :"))
+    sum=num*num
+    print("the square of number",num, "is", num*num)
+    
+print("the loop is done")    
